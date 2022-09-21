@@ -1,0 +1,354 @@
+开放地址法:  
+请输入哈希表的容量n(推荐n>=4900): 
+6000
+哈希函数选择：
+1: BKDRHash算法
+2: DJBHash算法
+3: JSHash算法
+4: RSHash算法
+5: SDBMHash算法
+6: ELFHash算法
+请输入整数1~6来选择哈希函数hash_k : 
+2
+all sentences: 1728
+all_words: 32516
+diff_words: 4855
+search: 11113
+space = n : 6000
+n/diff_words: 1.23584
+average_search = search/diff_words: 2.28898
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: stop
+Sentence 124
+Even if I lose their bill, or burn it, they are still safe, because they can stop payment, and the Bank will make them whole; but meantime I've got to do a month's suffering without wages or profit - unless I help win that bet, whatever it may be, and get that situation that I am promised. 
+Sentence 281
+You must come and stop with me to-night, when we leave here, and tell me all about it." 
+Sentence 312
+What in the nation she could find to laugh about I couldn't see, but there it was; every half-minute some new detail would fetch her, and I would have to stop as much as a minute and a half to give her a chance to settle down again. 
+Sentence 696
+'Oho!' said the board, looking very knowing; 'we are the fellows to set this to rights; we'll stop it all, in no time.' So, they established the rule, that all poor people should have the alternative (for they would compel nobody, not they), of being starved by a gradual process in the house, or by a quick one out of it. 
+Sentence 1190
+'Stop, stop!' said the old woman in a loud whisper. 
+Sentence 1458
+'I am very glad to see you, dear; but don't stop, don't stop!' 'Yes, yes, I will, to say good-b'ye to you,' replied Oliver. 
+Sentence 1604
+He would stop every now and then to listen when there was the least noise below: and when he had satistified himself, he would go on whistling and stirring again, as before. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: American
+Sentence 224
+About the tenth day of my fame I went to fulfil my duty to my flag by paying my respects to the American minister. 
+Sentence 243
+There was still another guest, an American - but I am a little ahead of my story. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: poor
+Sentence 32
+They saw many honest faces go by that were not intelligent enough; many that were intelligent, but not honest enough; many that were both, but the possessors were not poor enough, or, if poor enough, were not strangers. 
+Sentence 55
+He wanted to look at it, and keep on looking at it; he couldn't seem to get enough of it to quench the thirst of his eye, but he shrank from touching it as if it had been something too sacred for poor common clay to handle. 
+Sentence 101
+We conceive you to be poor and a stranger. 
+Sentence 203
+From being a poor, struggling, little hand-to-mouth enterprise, it had become celebrated, and overcrowded with customers. 
+Sentence 342
+Henry, it doesn't merely make me realize how rich you are; it makes me realize, to the bone, to the marrow, how poor I am - how poor I am, and how miserable, how defeated, routed, annihilated!" 
+Sentence 515
+'Ah, poor dear, so it is!' said the nurse, picking up the cork of the green bottle, which had fallen out on the pillow, as she stooped to take up the child. 
+Sentence 534
+Upon this, the parish authorities magnanimously and humanely resolved, that Oliver should be 'farmed,' or, in other words, that he should be dispatched to a branch-workhouse some three miles off, where twenty or thirty other juvenile offenders against the poor-laws, rolled about the floor all day, without the inconvenience of too much food or too much clothing, under the parental superintendence of an elderly female, who received the culprits at and for the consideration of sevenpence-halfpenny per small head per week. 
+Sentence 645
+'Will she go with me?' inquired poor Oliver. 
+Sentence 674
+You know you're an orphan, I suppose?' 'What's that, sir?' inquired poor Oliver. 
+Sentence 694
+And this was it: The members of this board were very sage, deep, philosophical men; and when they came to turn their attention to the workhouse, they found out at once, what ordinary folks would never have discovered--the poor people liked it! 
+Sentence 696
+'Oho!' said the board, looking very knowing; 'we are the fellows to set this to rights; we'll stop it all, in no time.' So, they established the rule, that all poor people should have the alternative (for they would compel nobody, not they), of being starved by a gradual process in the house, or by a quick one out of it. 
+Sentence 698
+They made a great many other wise and humane regulations, having reference to the ladies, which it is not necessary to repeat; kindly undertook to divorce poor married people, in consequence of the great expense of a suit in Doctors' Commons; and, instead of compelling a man to support his family, as they had theretofore done, took his family away from him, and made him a bachelor! 
+Sentence 761
+Don't be too hard on a poor man. 
+Sentence 798
+Bumble paused to take breath, after delivering this address in an awful voice, the tears rolled down the poor child's face, and he sobbed bitterly. 
+Sentence 936
+Bumble, I pay a good deal towards the poor's rates.' 'Hem!' said Mr. 
+Sentence 1066
+he!' 'Oh, you queer soul!' said Charlotte, bursting into a hearty laugh, in which she was joined by Noah; after which they both looked scornfully at poor Oliver Twist, as he sat shivering on the box in the coldest corner of the room, and ate the stale pieces which had been specially reserved for him. 
+Sentence 1338
+'It's a poor boy from the free-school, sir,' replied Mr. 
+Sentence 1499
+But the turnpike-man gave him a meal of bread and cheese; and the old lady, who had a shipwrecked grandson wandering barefoot in some distant part of the earth, took pity upon the poor orphan, and gave him what little she could afford--and more--with such kind and gentle words, and such tears of sympathy and compassion, that they sank deeper into Oliver's soul, than all the sufferings he had ever undergone. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: look
+Sentence 38
+I was going to open it, but he said no; take it to my lodgings, and look it over carefully, and not be hasty or rash. 
+Sentence 55
+He wanted to look at it, and keep on looking at it; he couldn't seem to get enough of it to quench the thirst of his eye, but he shrank from touching it as if it had been something too sacred for poor common clay to handle. 
+Sentence 165
+It's easy to say, sir; but look at the bill yourself." 
+Sentence 166
+The proprietor took a look, gave a low, eloquent whistle, then made a dive for the pile of rejected clothing, and began to snatch it this way and that, talking all the time excitedly, and as if to himself: "Sell an eccentric millionaire such an unspeakable suit as that! 
+Sentence 176
+look at that, now! 
+Sentence 219
+couldn't take his breakfast without a crowd to look on; couldn't appear in an operabox without concentrating there the fire of a thousand lorgnettes. 
+Sentence 239
+I believed my second year's salary would carry me through the rest of the month if I went on being cautious and economical, and I intended to look sharply out for that. 
+Sentence 246
+The moment the usual civilities were over, Hastings caught sight of me, and came straight with cordially outstretched hand; then stopped short when about to shake, and said, with an embarrassed look: "I beg your pardon, sir, I thought I knew you." 
+Sentence 307
+Why, I couldn't even say "Two for his heels" without adding, "My, how sweet you do look!" 
+Sentence 331
+Maybe it will teach you not to expect other people to look with your eyes." 
+Sentence 338
+"Let me just stand here a little and look my fill. 
+Sentence 418
+Dressed at my level best, I drove by the house in Portland Place, judged by the look of things that my birds were home again, went on towards the minister's and got my precious, and we started back, talking salary with all our might. 
+Sentence 444
+Meantime, take a look at that." 
+Sentence 655
+Bumble from the wretched home where one kind word or look had never lighted the gloom of his infant years. 
+Sentence 745
+It's humane too, gen'l'men, acause, even if they've stuck in the chimbley, roasting their feet makes 'em struggle to hextricate theirselves.' The gentleman in the white waistcoat appeared very much amused by this explanation; but his mirth was speedily checked by a look from Mr. 
+Sentence 784
+Gamfield gave an arch look at the faces round the table, and, observing a smile on all of them, gradually broke into a smile himself. 
+Sentence 803
+Bumble instructed Oliver that all he would have to do, would be to look very happy, and say, when the gentleman asked him if he wanted to be apprenticed, that he should like it very much indeed; both of which injunctions Oliver promised to obey: the rather as Mr. 
+Sentence 810
+Bumble said this, he put on a grim and threatening look, and added, in a low voice, 'Mind what I told you, you young rascal!' Oliver stared innocently in Mr. 
+Sentence 833
+'You're a rough speaker, my friend, but you look an honest, open-hearted man,' said the old gentleman: turning his spectacles in the direction of the candidate for Oliver's premium, whose villainous countenance was a regular stamped receipt for cruelty. 
+Sentence 840
+But, as it chanced to be immediately under his nose, it followed, as a matter of course, that he looked all over his desk for it, without finding it; and happening in the course of his search to look straight before him, his gaze encountered the pale and terrified face of Oliver Twist: who, despite all the admonitory looks and pinches of Bumble, was regarding the repulsive countenance of his future master, with a mingled expression of horror and fear, too palpable to be mistaken, even by a half-blind magistrate. 
+Sentence 843
+'My boy!' said the old gentleman, 'you look pale and alarmed. 
+Sentence 953
+Bumble thought it expedient to look down, and see that the boy was in good order for inspection by his new master: which he accordingly did, with a fit and becoming air of gracious patronage. 
+Sentence 965
+Bumble, stopping short, and darting at his little charge a look of intense malignity. 
+Sentence 976
+Bumble regarded Oliver's piteous and helpless look, with some astonishment, for a few seconds; hemmed three or four times in a husky manner; and after muttering something about 'that troublesome cough,' bade Oliver dry his eyes and be a good boy. 
+Sentence 1046
+It is difficult for a large-headed, small-eyed youth, of lumbering make and heavy countenance, to look dignified under any circumstances; but it is more especially so, when superadded to these personal attractions are a red nose and yellow smalls. 
+Sentence 1148
+Noah, look after the shop. 
+Sentence 1150
+They walked on, for some time, through the most crowded and densely inhabited part of the town; and then, striking down a narrow street more dirty and miserable than any they had yet passed through, paused to look for the house which was the object of their search. 
+Sentence 1167
+Oliver was afraid to look at either her or the man. 
+Sentence 1425
+He had listened to their taunts with a look of contempt; he had borne the lash without a cry: for he felt that pride swelling in his heart which would have kept down a shriek to the last, though they had roasted him alive. 
+Sentence 1435
+One timid look around--one moment's pause of hesitation--he had closed it behind him, and was in the open street. 
+Sentence 1496
+In others, he would stand about the inn-yards, and look mournfully at every one who passed: a proceeding which generally terminated in the landlady's ordering one of the post-boys who were lounging about, to drive that strange boy out of the place, for she was sure he had come to steal something. 
+Sentence 1508
+He took little heed of this at first; but the boy remained in the same attitude of close observation so long, that Oliver raised his head, and returned his steady look. 
+Sentence 1524
+But,' he added, noticing Oliver's look of surprise, 'I suppose you don't know what a beak is, my flash com-pan-i-on.' Oliver mildly replied, that he had always heard a bird's mouth described by the term in question. 
+Sentence 1648
+'Are you sure?' cried the Jew: with a still fiercer look than before: and a threatening attitude. 
+Sentence 1663
+Only a miser; that's all.' Oliver thought the old gentleman must be a decided miser to live in such a dirty place, with so many watches; but, thinking that perhaps his fondness for the Dodger and the other boys, cost him a good deal of money, he only cast a deferential look at the Jew, and asked if he might get up. 
+Sentence 1698
+At such times, he would look constantly round him, for fear of thieves, and would keep slapping all his pockets in turn, to see that he hadn't lost anything, in such a very funny and natural manner, that Oliver laughed till the tears ran down his face. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: bill
+Sentence 33
+There was always a defect, until I came along; but they agreed that I filled the bill all around; so they elected me unanimously, and there I was now waiting to know why I was called in. 
+Sentence 54
+Then he was restored to his normal condition, and made a thousand apologies for not being able to break the bill, and I couldn't get him to touch it. 
+Sentence 62
+I was pretty nervous; in fact, pretty badly frightened, though, of course, I was no way in fault; but I knew men well enough to know that when they find they've given a tramp a million-pound bill when they thought it was a one-pounder, they are in a frantic rage against him instead of quarreling with their own near-sightedness, as they ought. 
+Sentence 118
+If I ask the Bank of England to place this bill to the credit of the man it belongs to, they'll do it, for they know him, although I don't; but they will ask me how I came in possession of it, and if I tell the truth, they'll put me in the asylum, naturally, and a lie will land me in jail. 
+Sentence 119
+The same result would follow if I tried to bank the bill anywhere or to borrow money on it. 
+Sentence 124
+Even if I lose their bill, or burn it, they are still safe, because they can stop payment, and the Bank will make them whole; but meantime I've got to do a month's suffering without wages or profit - unless I help win that bet, whatever it may be, and get that situation that I am promised. 
+Sentence 156
+He received it with a smile, one of those large smiles which goes all around over, and has folds in it, and wrinkles, and spirals, and looks like the place where you have thrown a brick in a pond; and then in the act of his taking a glimpse of the bill this smile froze solid, and turned yellow, and looked like those wavy, wormy spreads of lava which you find hardened on little levels on the side of Vesuvius. 
+Sentence 158
+The man stood there holding the bill, and looking like that, and the proprietor hustled up to see what was the matter, and said, briskly: "Well, what's up? 
+Sentence 165
+It's easy to say, sir; but look at the bill yourself." 
+Sentence 185
+When I got a chance I said: "But, my dear sir, I can't give these orders, unless you can wait indefinitely, or change the bill." 
+Sentence 199
+I took my dinners there, but for breakfast I stuck by Harris's humble feeding house, where I had got my first meal on my million-pound bill. 
+Sentence 221
+You know, I even kept my old suit of rags, and every now and then appeared in them, so as to have the old pleasure of buying trifles, and being insulted, and then shooting the scoffer dead with the million-pound bill. 
+Sentence 450
+And the only use I made of it was to buy trifles and offer the bill in change." 
+Sentence 492
+My Portia's papa took that friendly and hospitable bill back to the Bank of England and cashed it; then the Bank canceled it and made him a present of it, and he gave it to us at our wedding, and it has always hung in its frame in the sacredest place in our home ever since. 
+Sentence 702
+It was rather expensive at first, in consequence of the increase in the undertaker's bill, and the necessity of taking in the clothes of all the paupers, which fluttered loosely on their wasted, shrunken forms, after a week or two's gruel. 
+Sentence 733
+Oliver was ordered into instant confinement; and a bill was next morning pasted on the outside of the gate, offering a reward of five pounds to anybody who would take Oliver Twist off the hands of the parish. 
+Sentence 735
+'I never was more convinced of anything in my life,' said the gentleman in the white waistcoat, as he knocked at the gate and read the bill next morning: 'I never was more convinced of anything in my life, than I am that that boy will come to be hung.' As I purpose to show in the sequel whether the white waistcoated gentleman was right or not, I should perhaps mar the interest of this narrative (supposing it to possess any at all), if I ventured to hint just yet, whether the life of Oliver Twist had this violent termination or no. 
+Sentence 913
+Bumble spoke, he raised his cane to the bill above him, and gave three distinct raps upon the words 'five pounds': which were printed thereon in Roman capitals of gigantic size. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: spoke
+Sentence 15
+I was just getting desperate enough to brave all the shame, and to seize it, when a window behind me was raised, and a gentleman spoke out of it, saying: "Step in here, please." 
+Sentence 141
+The fellow I spoke to nodded his head towards another fellow, and gave me no answer. 
+Sentence 480
+Of course, I spoke right up now, without any fooling, and went straight to the point. 
+Sentence 504
+As the young woman spoke, he rose, and advancing to the bed's head, said, with more kindness than might have been expected of him: 'Oh, you must not talk about dying yet.' 'Lor bless her dear heart, no!' interposed the nurse, hastily depositing in her pocket a green glass bottle, the contents of which she had been tasting in a corner with evident satisfaction. 
+Sentence 682
+The gentleman who spoke last was unconsciously right. 
+Sentence 859
+'We refuse to sanction these indentures,' said the old gentleman: tossing aside the piece of parchment as he spoke. 
+Sentence 913
+Bumble spoke, he raised his cane to the bill above him, and gave three distinct raps upon the words 'five pounds': which were printed thereon in Roman capitals of gigantic size. 
+Sentence 1519
+'I am very hungry and tired,' replied Oliver: the tears standing in his eyes as he spoke. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: gigantic
+Sentence 913
+Bumble spoke, he raised his cane to the bill above him, and gave three distinct raps upon the words 'five pounds': which were printed thereon in Roman capitals of gigantic size. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: raps
+Sentence 913
+Bumble spoke, he raised his cane to the bill above him, and gave three distinct raps upon the words 'five pounds': which were printed thereon in Roman capitals of gigantic size. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: above
+Sentence 211
+At first, in these mentions, I was at the bottom of the personal-gossip column; next, I was listed above the knights, next above the baronets, next above the barons, and so on, and so on, climbing steadily, as my notoriety augmented, until I reached the highest altitude possible, and there I remained, taking precedence of all dukes not royal, and of all ecclesiastics except the primate of all England. 
+Sentence 303
+I was so bewitched with her that I couldn't count my hands if they went above a double sequence; and when I struck home I never discovered it, and started up the outside row again, and would have lost the game every time, only the girl did the same, she being in just my condition, you see; and consequently neither of us ever got out, or cared to wonder why we didn't; we only just knew we were happy, and didn't wish to know anything else, and didn't want to be interrupted. 
+Sentence 411
+His character is above reproach, and the mine is worth far more than he asks for it." 
+Sentence 913
+Bumble spoke, he raised his cane to the bill above him, and gave three distinct raps upon the words 'five pounds': which were printed thereon in Roman capitals of gigantic size. 
+Sentence 985
+that's the boy, is it?' said the undertaker: raising the candle above his head, to get a better view of Oliver. 
+Sentence 1025
+But his heart was heavy, notwithstanding; and he wished, as he crept into his narrow bed, that that were his coffin, and that he could be lain in a calm and lasting sleep in the churchyard ground, with the tall grass waving gently above his head, and the sound of the old deep bell to soothe him in his sleep. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: personal
+Sentence 211
+At first, in these mentions, I was at the bottom of the personal-gossip column; next, I was listed above the knights, next above the baronets, next above the barons, and so on, and so on, climbing steadily, as my notoriety augmented, until I reached the highest altitude possible, and there I remained, taking precedence of all dukes not royal, and of all ecclesiastics except the primate of all England. 
+Sentence 1046
+It is difficult for a large-headed, small-eyed youth, of lumbering make and heavy countenance, to look dignified under any circumstances; but it is more especially so, when superadded to these personal attractions are a red nose and yellow smalls. 
+Sentence 1211
+Sowerberry and Bumble, being personal friends of the clerk, sat by the fire with him, and read the paper. 
+Sentence 1248
+He got rather personal. 
+Sentence 1322
+Bumble himself, who happened to be hard by, but alarmed him so much that he rushed into the yard without his cocked hat,--which is a very curious and remarkable circumstance: as showing that even a beadle, acted upon a sudden and powerful impulse, may be afflicted with a momentary visitation of loss of self-possession, and forgetfulness of personal dignity. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: first
+Sentence 49
+The first thing I noticed, then, was the landlord. 
+Sentence 130
+Pretty soon I was feeling first-rate. 
+Sentence 199
+I took my dinners there, but for breakfast I stuck by Harris's humble feeding house, where I had got my first meal on my million-pound bill. 
+Sentence 211
+At first, in these mentions, I was at the bottom of the personal-gossip column; next, I was listed above the knights, next above the baronets, next above the barons, and so on, and so on, climbing steadily, as my notoriety augmented, until I reached the highest altitude possible, and there I remained, taking precedence of all dukes not royal, and of all ecclesiastics except the primate of all England. 
+Sentence 236
+Now my estimate of the salary was six hundred to a thousand a year; say, six hundred for the first year, and so on up year by year, till I struck the upper figure by proved merit. 
+Sentence 237
+At present I was only in debt for my first year's salary. 
+Sentence 297
+Here the religion of precedence is not so strenuous; the two persons of highest rank chuck up a shilling, the one that wins has first go at his strawberry, and the loser gets the shilling. 
+Sentence 317
+Then she began to get a little worried, and wondered if we were making any mistake, and starting the salary on a higher figure for the first year than I would get. 
+Sentence 334
+You may judge by this fact: privately I raised my salary to twelve hundred the first year on the spot. 
+Sentence 503
+As Oliver gave this first proof of the free and proper action of his lungs, the patchwork coverlet which was carelessly flung over the iron bedstead, rustled; the pale face of a young woman was raised feebly from the pillow; and a faint voice imperfectly articulated the words, 'Let me see the child, and die.' The surgeon had been sitting with his face turned towards the fire: giving the palms of his hands a warm and a rub alternately. 
+Sentence 539
+Everybody knows the story of another experimental philosopher who had a great theory about a horse being able to live without eating, and who demonstrated it so well, that he had got his own horse down to a straw a day, and would unquestionably have rendered him a very spirited and rampacious animal on nothing at all, if he had not died, four-and-twenty hours before he was to have had his first comfortable bait of air. 
+Sentence 657
+Wretched as were the little companions in misery he was leaving behind, they were the only friends he had ever known; and a sense of his loneliness in the great wide world, sank into the child's heart for the first time. 
+Sentence 676
+'Hush!' said the gentleman who had spoken first. 
+Sentence 701
+For the first six months after Oliver Twist was removed, the system was in full operation. 
+Sentence 702
+It was rather expensive at first, in consequence of the increase in the undertaker's bill, and the necessity of taking in the clothes of all the paupers, which fluttered loosely on their wasted, shrunken forms, after a week or two's gruel. 
+Sentence 739
+Gamfield having lingered behind, to give the donkey another blow on the head, and another wrench of the jaw, as a caution not to run away in his absence, followed the gentleman with the white waistcoat into the room where Oliver had first seen him. 
+Sentence 903
+The people who have been better off, and have paid rates for many years, are the first to sink when they come into the house; and let me tell you, Mr. 
+Sentence 922
+I put it on, I remember, for the first time, to attend the inquest on that reduced tradesman, who died in a doorway at midnight.' 'I recollect,' said the undertaker. 
+Sentence 1047
+Oliver, having taken down the shutters, and broken a pane of glass in his effort to stagger away beneath the weight of the first one to a small court at the side of the house in which they were kept during the day, was graciously assisted by Noah: who having consoled him with the assurance that 'he'd catch it,' condescended to help him. 
+Sentence 1119
+'Aha!' said the undertaker, glancing over it with a lively countenance; 'an order for a coffin, eh?' 'For a coffin first, and a porochial funeral afterwards,' replied Mr. 
+Sentence 1139
+Bumble put on his cocked hat wrong side first, in a fever of parochial excitement; and flounced out of the shop. 
+Sentence 1156
+There was neither knocker nor bell-handle at the open door where Oliver and his master stopped; so, groping his way cautiously through the dark passage, and bidding Oliver keep close to him and not be afraid the undertaker mounted to the top of the first flight of stairs. 
+Sentence 1341
+I felt a strange presentiment from the very first, that that audacious young savage would come to be hung!' 'He has likewise attempted, sir, to murder the female servant,' said Mr. 
+Sentence 1434
+With the first ray of light that struggled through the crevices in the shutters, Oliver arose, and again unbarred the door. 
+Sentence 1440
+Bumble, when he first carried him to the workhouse from the farm. 
+Sentence 1466
+God bless you!' The blessing was from a young child's lips, but it was the first that Oliver had ever heard invoked upon his head; and through the struggles and sufferings, and troubles and changes, of his after life, he never once forgot it. 
+Sentence 1470
+Then he sat down to rest by the side of the milestone, and began to think, for the first time, where he had better go and try to live. 
+Sentence 1485
+He felt frightened at first, for the wind moaned dismally over the empty fields: and he was cold and hungry, and more alone than he had ever felt before. 
+Sentence 1487
+He felt cold and stiff, when he got up next morning, and so hungry that he was obliged to exchange the penny for a small loaf, in the very first village through which he passed. 
+Sentence 1508
+He took little heed of this at first; but the boy remained in the same attitude of close observation so long, that Oliver raised his head, and returned his steady look. 
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: abc
+There is not the word!
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: return
+There is not the word!
+
+-----------------------------------------
+You can use '$stop' to stop the Query !
+Query :
+请输入: 
