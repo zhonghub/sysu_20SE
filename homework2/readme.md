@@ -24,13 +24,13 @@
 
 ### 5.运行结果
 
-视频：见img\hw2_result.mp4
+**视频：[img](https://github.com/zhonghub/sysu_20SE/tree/main/homework2/img)/hw2_result.mp4**
 
-截图：
+**截图：**
 
 <img src="img\image1.png" alt="image1" style="zoom: 80%;" /> 
 
-gif图：
+**gif图：[img](https://github.com/zhonghub/sysu_20SE/tree/main/homework2/img)/hw2_result.gif**
 
 <img src="img\hw2_result.gif" alt="hw2_result" style="zoom:130%;" /> 
 
