@@ -26,6 +26,8 @@
 
 img\hw2_result.mp4
 
+<iframe width="900" height="600" src="img\hw2_result.mp4" frameborder="0" allowfullscreen></iframe>
+
 <video src="img\hw2_result.mp4"></video>
 
 ### 6.TicTacToe.cs 代码
