@@ -34,13 +34,11 @@ public class TicTacToe : MonoBehaviour
     private int checkWinner(int i, int j){
         int now = state[i,j];
         // 判断(i,j)是否为在角线左上至右下
-        if(i == j)
-            if(state[(i+1)%3,(j+1)%3] == now && state[(i+2)%3,(j+2)%3] == now)
-                return now;
+        if(i == j && state[(i+1)%3,(j+1)%3] == now && state[(i+2)%3,(j+2)%3] == now)
+            return now;
         // 判断(i,j)是否在对角线左下至右上
-        if(i+j == 2)
-            if(state[(i+1)%3,(j+2)%3] == now && state[(i+2)%3,(j+1)%3] == now)
-                return now;
+        if(i+j == 2 && state[(i+1)%3,(j+2)%3] == now && state[(i+2)%3,(j+1)%3] == now)
+            return now;
         // 判断(i,j)所处的行和列
         if((state[i,(j+1)%3] == now && state[i,(j+2)%3] == now)||
             (state[(i+1)%3,j] == now && state[(i+2)%3,j] == now))
@@ -99,19 +97,18 @@ public class TicTacToe : MonoBehaviour
 
         // 用Button画出9个按钮作为棋盘
 		for(int i = 0; i < 3; i++)
-		{
+        {
 			for(int j = 0; j < 3; j++)
 			{   
+                // 表示被玩家X下了的位置
 				if (state[i, j] == 1)
-                    // 表示被玩家X下了的位置
                     GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "X");
+                // 表示被玩家O下了的位置
 				else if (state[i, j] == -1)
-                    // 表示被玩家O下了的位置
                     GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "O");
 				else if(GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "")){
-                    // 当空按钮被按下且游戏对局未结束时，代表当前回合的玩家在该位置下了，即令state[i, j] = turn
-                    if(turnResult == 2)
-					{   
+                // 当空按钮被按下且游戏对局未结束时，代表当前回合的玩家在该位置下了，即令state[i, j] = turn
+                    if(turnResult == 2){   
                         // 该位置被当前玩家turn下了
 						state[i, j] = turn;
                         // 步数+1
