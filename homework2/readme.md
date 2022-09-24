@@ -24,7 +24,7 @@
 
 ### 5.运行结果视频
 
-<video src="D:\Git仓库\Git\3Dgame\sysu_20SE\homework2\img\hw2_result.mp4"></video>
+<video src="img\hw2_result.mp4"></video>
 
 ### 6.TicTacToe.cs 代码
 
