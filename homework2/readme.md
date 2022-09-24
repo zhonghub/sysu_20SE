@@ -80,7 +80,7 @@ public class TicTacToe : MonoBehaviour
     // return now: 当前的选手获胜;
     private int checkWinner(int i, int j){
         int now = state[i,j];
-        // 判断(i,j)是否为在角线左上至右下
+        // 判断(i,j)是否在对角线左上至右下
         if(i == j && state[(i+1)%3,(j+1)%3] == now && state[(i+2)%3,(j+2)%3] == now)
             return now;
         // 判断(i,j)是否在对角线左下至右上
@@ -123,39 +123,43 @@ public class TicTacToe : MonoBehaviour
 		}
 
         // 根据上一回合结果turnResult输出相关信息：
-		if (turnResult == 1) {
-			GUI.Label (new Rect (330, 60, 150, 60), "玩家 X 获胜");
-		} 
-		else if (turnResult == -1) {
-			GUI.Label (new Rect (330, 60, 150, 60), "玩家 O 获胜");
-		} 
-		else if (turnResult == 0) {
-			GUI.Label (new Rect (270, 60, 150, 60), "棋盘下满且无获胜者");
-		} 
-        // 否则turnResult == 2，游戏继续
-		else {
-			if (turn == 1) {
-				GUI.Label (new Rect (270, 60, 200, 60), "游戏继续! It's X's turn");
-			}
-			else if (turn == -1) {
-				GUI.Label (new Rect (270, 60, 200, 60), "游戏继续! It's O's turn");
-			}
-		}
+
+        switch (turnResult)
+        {
+            case 1:
+                GUI.Label (new Rect (330, 60, 150, 60), "玩家 X 获胜");
+                break;
+            case -1:
+                GUI.Label (new Rect (330, 60, 150, 60), "玩家 O 获胜");
+                break;
+            case 0:
+                GUI.Label (new Rect (270, 60, 150, 60), "棋盘下满且无获胜者");
+                break;
+            default:
+                if (turn == 1) {
+				    GUI.Label (new Rect (270, 60, 200, 60), "游戏继续! It's X's turn");
+			    }
+			    else if (turn == -1) {
+				    GUI.Label (new Rect (270, 60, 200, 60), "游戏继续! It's O's turn");
+			    }
+                break;
+        }
 
         // 用Button画出9个按钮作为棋盘
 		for(int i = 0; i < 3; i++)
-        {
+		{
 			for(int j = 0; j < 3; j++)
 			{   
-                // 表示被玩家X下了的位置
 				if (state[i, j] == 1)
+                    // 表示被玩家X下了的位置
                     GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "X");
-                // 表示被玩家O下了的位置
 				else if (state[i, j] == -1)
+                    // 表示被玩家O下了的位置
                     GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "O");
 				else if(GUI.Button(new Rect(i * 100 + 200, j * 100 + 100, 100, 100), "")){
-                // 当空按钮被按下且游戏对局未结束时，代表当前回合的玩家在该位置下了，即令state[i, j] = turn
-                    if(turnResult == 2){   
+                    // 当空按钮被按下且游戏对局未结束时，代表当前回合的玩家在该位置下了，即令state[i, j] = turn
+                    if(turnResult == 2)
+					{   
                         // 该位置被当前玩家turn下了
 						state[i, j] = turn;
                         // 步数+1
