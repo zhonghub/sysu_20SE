@@ -42,6 +42,8 @@
 
 在github上代码部分语句的缩进出现错误，为了易于阅读，可在gitee中阅读代码或将代码复制到VScode中打开。
 
+gitee代码链接：[3D游戏编程与设计: 3D游戏编程与设计作业 - Gitee.com](https://gitee.com/zhonghc_sysu/3D_game/tree/master/homework2#6tictactoecs-代码)
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;
