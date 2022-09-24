@@ -22,13 +22,15 @@
 
 ### 4.将脚本文件 TicTacToe.cs装载在**空对象(GameObject)** 上
 
-### 5.运行结果视频
+### 5.运行结果
 
-img\hw2_result.mp4
+视频：img\hw2_result.mp4
 
-<iframe width="900" height="600" src="img\hw2_result.mp4" frameborder="0" allowfullscreen></iframe>
+截图：![image1](img\image1.png)
 
-<video src="img\hw2_result.mp4"></video>
+gif图：
+
+![hw2_result](img\hw2_result.gif)
 
 ### 6.TicTacToe.cs 代码
 
