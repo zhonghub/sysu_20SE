@@ -38,6 +38,8 @@
 
 ### 6.TicTacToe.cs 代码
 
+在github上代码部分语句的缩进出现错误，为了易于阅读，可在gitee中阅读代码或将代码复制到VScode中打开。
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;
