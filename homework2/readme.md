@@ -26,6 +26,8 @@
 
 **视频：[img](https://github.com/zhonghub/sysu_20SE/tree/main/homework2/img)/hw2_result.mp4**
 
+<video src="img\hw2_result.mp4"></video>
+
 **截图：**
 
 <img src="img\image1.png" alt="image1" style="zoom: 80%;" /> 
