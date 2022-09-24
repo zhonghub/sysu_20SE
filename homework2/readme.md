@@ -24,13 +24,17 @@
 
 ### 5.运行结果
 
-视频：img\hw2_result.mp4
+视频：见img\hw2_result.mp4
 
-截图：![image1](img\image1.png)
+截图：
+
+<img src="img\image1.png" alt="image1" style="zoom: 80%;" /> 
 
 gif图：
 
-![hw2_result](img\hw2_result.gif)
+<img src="img\hw2_result.gif" alt="hw2_result" style="zoom:130%;" /> 
+
+
 
 ### 6.TicTacToe.cs 代码
 
