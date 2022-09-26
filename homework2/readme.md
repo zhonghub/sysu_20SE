@@ -30,11 +30,11 @@
 
 **截图：**
 
-<img src="img\image1.png" alt="image1" style="zoom: 80%;" /> 
+<img src="img/image1.png" alt="image1" style="zoom: 80%;" /> 
 
 **gif图：[img](https://github.com/zhonghub/sysu_20SE/tree/main/homework2/img)/hw2_result.gif**
 
-<img src="img\hw2_result.gif" alt="hw2_result" style="zoom:130%;" /> 
+<img src="img/hw2_result.gif" alt="hw2_result" style="zoom:130%;" /> 
 
 
 
