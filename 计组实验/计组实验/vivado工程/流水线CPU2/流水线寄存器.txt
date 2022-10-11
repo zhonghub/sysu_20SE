@@ -1,0 +1,4 @@
+IfIdRegister:
+IdExRegister:
+ExMemRegister:
+MemWbRegister:
