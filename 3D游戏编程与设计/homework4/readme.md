@@ -36,7 +36,7 @@
 
 <img src="readme.assets/image-20221016195708567.png" alt="image-20221016195708567" style="zoom:60%;" /> 
 
-#### 结果图：
+#### 场景结果图：
 
 总览
 
@@ -76,7 +76,7 @@
 
 <img src="readme.assets/image-20221016202649525.png" alt="image-20221016202649525" style="zoom:60%;" /> 
 
-4.结果
+4.最终结果
 
 最终我们的游戏场景就置于我们设置的天空盒中：
 
