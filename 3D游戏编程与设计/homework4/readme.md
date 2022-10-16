@@ -22,6 +22,8 @@
 
 <img src="readme.assets/image-20221016184848438.png" alt="image-20221016184848438" style="zoom:55%;" /> 
 
+由于默认地形是白色的，所以之后我选择使用资源包Fantasy Skybox FREE中的地形（图层为草地）再重新设置。
+
 
 
 #### 三、往地形上添加树、花草：
