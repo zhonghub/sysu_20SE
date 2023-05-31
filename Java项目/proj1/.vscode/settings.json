@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+    ],
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    // jar cfm TcpClientChat.jar m1.mf bin/*
+    // jar cfm TcpServerChat.jar m2.mf bin/* lib/*.jar
+    // java -jar TcpClientChat.jar
+
+
+}
