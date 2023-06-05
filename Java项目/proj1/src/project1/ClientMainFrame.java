@@ -27,7 +27,7 @@ import javax.swing.JMenuItem;
 public class ClientMainFrame extends JFrame {
     private static final long serialVersionUID = 1L;
     // 服务器ip
-    public String host = "localhost";// 例如"192.168.1.1"
+    public String host = "localhost"; // "172.26.55.101"
     // 服务器端口号
     public int port = 8000;
     public boolean isRegister = false;
@@ -124,7 +124,7 @@ public class ClientMainFrame extends JFrame {
     /**
      * @param userName
      * 
-     *                 修改当前用户名为userName
+     * @apiNote 修改当前用户名为userName
      */
     void setUserName(String userName) {
         this.userName = userName;
@@ -139,7 +139,7 @@ public class ClientMainFrame extends JFrame {
      * @param msg
      * @param time
      * 
-     *                 接收编辑框增加一条记录
+     * @apiNote 接收编辑框增加一条记录
      */
     void addMsg(String userName, String msg, String time) {
         txtaReceive.append(time + "  \r" + userName + ":  \r" + msg + "\r\n"); // 加到末尾
@@ -153,7 +153,7 @@ public class ClientMainFrame extends JFrame {
     /**
      * @param s1 host
      * @param i  端口号
-     *           设置host和端口号
+     * @apiNote 设置host和端口号
      */
     public void setHostPort(String s1, int i) {
         host = s1;
@@ -161,7 +161,7 @@ public class ClientMainFrame extends JFrame {
     }
 
     /**
-     * 设置“发布”按钮，并绑定事件
+     * @apiNote 设置“发布”按钮，并绑定事件
      */
     private void addSendBtn() {
         JButton btnTest = new JButton("发布");
@@ -187,8 +187,11 @@ public class ClientMainFrame extends JFrame {
                 try {
                     socket = new Socket(host, port); // 与服务器 建立连接。
                     DataOutputStream toServer = new DataOutputStream(socket.getOutputStream());
+                    DataInputStream fromServer = new DataInputStream(socket.getInputStream());
                     toServer.writeUTF(sendStr);// 发送数据
+                    String recv = fromServer.readUTF(); // 接收数据
                     System.out.println("send= " + sendStr);
+                    System.out.println("recv= " + recv);
                     // addMsg(sendStr);
                     toServer.close();
                     socket.close(); // 关闭连接
@@ -204,8 +207,8 @@ public class ClientMainFrame extends JFrame {
     /**
      * @param jf
      * @return 返回一个菜单栏
-     *         给菜单栏设置按钮，并给按钮绑定事件：
-     *         注册，登录，设置，退出登录，退出系统
+     * @apiNote 给菜单栏设置按钮，并给按钮绑定事件：
+     *          注册，登录，设置，退出登录，退出系统
      */
     JMenuBar addMenu(JFrame jf) {
         JMenuBar jmenu = new JMenuBar(); // 创建菜单
@@ -266,8 +269,8 @@ public class ClientMainFrame extends JFrame {
         return jmenu;
     }
 
-    /*
-     * 退出客户端系统
+    /**
+     * @apiNote 退出客户端系统
      */
     void exit() {
         if (isRegister) {
@@ -287,17 +290,30 @@ public class ClientMainFrame extends JFrame {
         System.exit(0); // 退出系统。不会触发windowClosing事件
     }
 
-    // 登录
+    /**
+     * @apiNote 登录, 生成一个子窗口
+     */
     void logIn() {
         new ClientSubFrame(main, 2);
     }
 
-    // 注册
+    /**
+     * @apiNote 注册, 生成一个子窗口
+     */
     void register() {
         new ClientSubFrame(main, 1);
     }
 
-    // 退出登录
+    /**
+     * @apiNote 设置host和por, 生成一个子窗口
+     */
+    void set() {
+        new ClientSubFrame(main, 3);
+    }
+
+    /**
+     * @apiNote 退出登录
+     */
     void logOut() {
         if (isRegister) {
             String sendStr = 3 + "#" + userName + "#quit";
@@ -320,8 +336,4 @@ public class ClientMainFrame extends JFrame {
         this.setTitle("客户端: 登录用户:" + getUserName() + "  端口:" + port + "  host:" + host);
     }
 
-    // 设置host和port
-    void set() {
-        new ClientSubFrame(main, 3);
-    }
 }

@@ -17,10 +17,16 @@ public class TcpServerChat {
     // 服务器把客户端的消息插入数据库的msg表（用户名，消息，时间）
     // 并把从数据库读取倒数第二条消息作为回应（时间，用户名和消息）
 
-    public ServerMainFrame mainFrame;// 服务器窗口
+
+    // 服务器窗口
+    public ServerMainFrame mainFrame;
+    // 数据库
     SqlCon dataConn;
     ArrayList<String> userList;
 
+    /**
+     * @apiNote 默认构造函数
+     */
     public TcpServerChat() {
         mainFrame = new ServerMainFrame();
         dataConn = SqlCon.getInstance();
@@ -28,6 +34,9 @@ public class TcpServerChat {
         userList = new ArrayList<String>();
     }
 
+    /**
+     * @param recvStr 要增加的消息
+     */
     public void addMsg(String recvStr) {
         mainFrame.appendStr(1, recvStr);
         String[] s = recvStr.split("#");
@@ -40,6 +49,10 @@ public class TcpServerChat {
         }
     }
 
+    /**
+     * @param s 用户信息
+     * @return 注册结果
+     */
     public String addUser(String[] s) {
         String values = String.format("'%s','%s','%s'", s[1], s[2], s[3]);
         System.out.println("注册" + values);
@@ -57,6 +70,10 @@ public class TcpServerChat {
         return "OK";
     }
 
+    /**
+     * @param s 用户信息
+     * @return 登录结果
+     */
     public String login(String[] s) {
         if (!dataConn.existQuery("select User_Cde from Users where User_Cde='" + s[1] + "'")) {
             return "用户不存在";
@@ -82,6 +99,9 @@ public class TcpServerChat {
         }
     }
 
+    /**
+     * @return 返回全部历史消息
+     */
     public String getMsg() {
         String s1 = "";
         ResultSet rs = dataConn.executeQuery("select User_Cde,Msg,WriteTime From Msg order by WriteTime");
@@ -98,12 +118,21 @@ public class TcpServerChat {
         return s1;
     }
 
+    /**
+     * @return 返回当前时间
+     */
     static String getNow() {
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return sformat.format(cal.getTime());
     }
 
+
+    /**
+     * @param args
+     * @throws Exception
+     * @apiNote 服务器主函数
+     */
     public static void main(String[] args) throws Exception {
         TcpServerChat server = new TcpServerChat();
         while (server.mainFrame.isUsing && server.mainFrame.isVisible()) {
@@ -131,6 +160,8 @@ public class TcpServerChat {
             } else if (s[0].equals("3")) {
                 // 退出
                 outputToClient.writeUTF(s2);
+                // 如果客户端异常退出，可能导致服务器无法正确保持在线用户名单
+                // 可以加个时间参数，超时无网络请求的用户会被强制下线，从在线用户名单中删除
                 server.userList.remove(s[1]);
                 server.mainFrame.showUser(server.userList);
             } else if (s[0].equals("a")) {

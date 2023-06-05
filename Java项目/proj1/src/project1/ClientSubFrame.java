@@ -130,6 +130,8 @@ public class ClientSubFrame extends JFrame {
                     DataOutputStream toServer = new DataOutputStream(subSocket.getOutputStream());
                     toServer.writeUTF(sendStr);// 发送数据
                     String recv = fromServer.readUTF(); // 接收数据
+                    System.out.println("send= " + sendStr);
+                    System.out.println("recv= " + recv);
                     fromServer.close();
                     toServer.close();
                     subSocket.close();

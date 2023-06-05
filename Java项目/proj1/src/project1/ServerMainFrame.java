@@ -32,6 +32,7 @@ public class ServerMainFrame extends JFrame {
     private ServerMainFrame main;
     private JTextArea txtaReceive;
     private JTextArea txtaUser;
+    // 服务器监听端口号
     private int port = 8000;// 8000
 
     public ServerMainFrame() {

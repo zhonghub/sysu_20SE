@@ -11,16 +11,31 @@ import java.sql.SQLException;
 public class SqlCon {
     private static SqlCon instance = null;
     private Connection conn;
-    // 驱动为mysql
-    private final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    // 数据库为data1
-    private final String CONN_URL = "jdbc:mysql://localhost:3306/data1";
-    // 用户名和密码
-    private final String uName = "root";
-    private final String uPass = "123456";
+    private String DRIVER = "com.mysql.cj.jdbc.Driver";
+    private String CONN_URL = "jdbc:mysql://localhost:3306/data1";
+    private String uName = "root";
+    private String uPass = "123456";
 
     // private final String DRIVER = "com.hxtt.sql.access.AccessDriver";
-    // private final String CONN_URL = "jdbc:Access:///./data/msg.mdb"; // .为当前目录，即本项目的根目录。
+    // private final String CONN_URL = "jdbc:Access:///./data/msg.mdb"; //
+    // .为当前目录，即本项目的根目录。
+
+    // "jdbc:mysql://localhost:3306/data1?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    // "jdbc:mysql:///./data/data1"; // error
+
+    
+    /**
+     * @param driver 数据库驱动
+     * @param conn_url 数据库连接url
+     * @param name 用户名
+     * @param pass 密码
+     */
+    private SqlCon(String driver, String conn_url, String name, String pass) {
+        DRIVER = driver;
+        CONN_URL = conn_url;
+        uName = name;
+        uPass = pass;
+    }
 
     private SqlCon() {
     }
