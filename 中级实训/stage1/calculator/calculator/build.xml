@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calculator" basedir="." default="test">
+	<!-- 源代码src路径 -->
+	<property name="src.path" value="src/main" />
+	<!-- 编译文件class路径 -->
+	<property name="build.path" value="build" />
+	<!-- 单元测试代码路径 -->
+	<property name="test.path" value="src/test" />
+
+	<property name="jarfile" value="${build.path}/*.jar" />
+
+	<path id="classpath.base"/>
+	<path id="compile.path">
+		<pathelement location="lib/junit4.jar" />
+		<pathelement location="lib/hamcrest-core-1.3.jar" />
+		<pathelement location="${build.path}/classes"/>
+		<!-- 下句在进行jar打包时可替换上句 
+		<pathelement location="${build.path}/ht.jar" />
+		-->
+		<path refid="classpath.base" />
+	</path>
+
+	<target name="clean" description="清除所有编译生成的文件及生成的jar包">
+		<echo> 清除build及其目录下的class文件! </echo>
+		<delete dir="${build.path}"/>
+		<delete dir="lib/ht.jar"/>
+	</target>
+
+	<target name="compile" depends="clean" description="编译main包">
+		<echo> 编译main包! </echo>
+		<mkdir dir="${build.path}/classes" />
+		<javac includeantruntime="false" srcdir="${src.path}" destdir="${build.path}/classes" classpathref="compile.path" />
+	</target>
+
+	<target name="compile2" depends="compile" description="编译test包">
+		<echo> 编译test包! </echo>
+		<javac includeantruntime="false" srcdir="${test.path}" destdir="${build.path}/classes">
+			<classpath refid="compile.path" />
+		</javac>
+	</target>
+
+	<target name="run" depends="compile" description="运行main.Calculator">
+		<echo> Run main.MainClass </echo>
+		<java classname="main.MainClass">
+			<classpath path="${build.path}/classes" />
+		</java>
+		<echo> Run结束! </echo>
+	</target>
+	
+	<target name="test" depends="compile2" description="测试main.Calculator">
+		<echo> JUnit单元测试test.TestCalculator! </echo>
+		<junit printsummary="true" fork="yes">
+			<classpath refid="compile.path" />
+			<formatter type="brief" usefile="false" />
+			<test name="test.TestCalculator" />
+			<!--<classpath path="${build.path}"-->
+		</junit>
+		<echo> test.TestHelloWorld结束! </echo>
+	</target>
+
+	<!-- 打包 -->
+	<target name="jar" depends="compile2" description="打包成jar包">
+		<jar destfile="${build.path}/ht.jar" basedir="${build.path}/classes"/>
+	</target>
+
+</project>
