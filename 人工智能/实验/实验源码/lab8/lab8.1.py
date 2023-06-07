@@ -35,7 +35,7 @@ class Net(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),  # (32，21，21)
         )
-        self.out = nn.Linear(32 * 21 * 21, batch_size1)  # (32，21，21)
+        self.out = nn.Linear(32 * 21 * 21, batch_size1)  # (32，21，21) 这里第2个参数应为分类树，这里是10分类，则为10
 
     def forward(self, x):
         x = self.conv1(x)
